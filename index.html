@@ -15,7 +15,7 @@
         <h3> {{ title }} </h3>
         <form @submit.prevent="addTodo">
             <label for="newTodo">Karep Mu Opo?</label>
-            <input v-model="newTodo" type="text" name="newTodo" id="newTodo" value="">
+            <input v-model="newTodo" type="text" name="newTodo" id="newTodo" value="" placeholder="Tulisen Karepmu Opo?">
             <button type="submit" name="button">Tambah</button>
         </form>
         <button @click="allDone" type="button" name="button">Wes Mari Kabeh</button>
